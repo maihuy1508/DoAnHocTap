@@ -1,0 +1,225 @@
+.banner{
+    width: 100%;
+    height: 50px;
+    background-color: #282f57;
+}
+
+.header{
+    height: 88px;
+    background-color: #f1f0f1;
+    border-bottom: 1px solid #d4d4d4;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+
+.logo{
+    width: 12%;
+    height: 78px;
+    margin-left:7.2% ;
+    margin-top: 1%;
+    float: left;
+}
+
+.wrap-search{
+    margin-top: 1%;
+    margin-left:1%; 
+    width: 35.7%;
+    height: 33px;
+    background-color: #fff;
+    border-radius: 30px;
+    float: left;
+    
+}
+
+#search-box{
+    background: #fff;
+    border-radius: 30px;
+}
+
+#search-text{
+    width: 93%;
+    height: 33px;
+    border: none;
+    outline: none;
+    background: #fff;
+    padding: 15px;
+    font-size: 15px;
+    float: left;
+    border-radius: 30px;
+}
+
+#search-btn{
+    background-color: #fff;
+    border: none;
+    height: 30px;
+    padding: 10.6px 10px;
+    float: left;
+    border-radius: 50%;
+}
+
+
+.wrap-right{
+    margin-top: 1%;
+    margin-left: 0.1%;
+    width: 40%;
+    height: 40px;
+    float: left;
+   
+   
+}
+
+.top-item{
+    width: 6%;
+    height: 30px;
+    float: left;
+    margin-top: 1%;
+    margin-left: 3%;
+    text-align: left;
+    color: black;
+   
+}
+
+.gearvn-text{
+    width: 15%;
+    height: 30px;
+    float: left;
+    margin-top: 0.8%;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.wrap-info-top{
+    width: 80%;
+    height: 30px;
+    float: left;
+}
+
+.info-top{
+    width: 20%;
+    height: 30px;
+    float: left;
+    
+}
+
+
+li{
+    width: 9%;
+    margin-left: 1%;
+    margin-top: 0.2%;
+    float: left;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: #ea1c00;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    border-right: 2px solid #ea1c00;
+}
+
+a{
+    font-weight: 00;
+}
+
+.icon-info{
+    color: red;
+    margin-right: 6%;
+}
+
+.wrap-hidden{
+    margin-top: -0.35%;
+    width: 100%;
+    height: 50px;
+    background-color: #f1f0f1;
+    float: left;
+}
+
+.hidden-content{
+    width: 85.5%;
+    margin-left: 7.25%;
+    height: 50px;
+    float: left;
+}
+
+.section1{
+    text-align: center;
+    margin-top: 0.5%;
+    margin-left: 0.2%;
+    margin-right: 0.6%;
+    width: 13.7%;
+    height: 36px;
+    background-color: azure;
+    float: left;
+    display: flex;
+    border-radius: 4px;
+}
+.section2{
+    text-align: center;
+    margin-top: 0.5%;
+    margin-right: 0.6%;
+    width: 20.5%;
+    height: 36px;
+    background-color: azure;
+    float: left;
+    border-radius: 5px ;
+    border: 1px solid #505050;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.section2::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.section2:hover::before{
+    background-color: red;
+}
+
+
+.section1 span{
+    background-color: #505050;
+    padding: 8px 12px;
+    display: block;
+    color: #fff;
+    width: 100%;
+    font-size: 12px;
+    border-radius: 4px;
+    
+}
+
+.section2 span{
+    font-family: 'Robotoxx' !important;
+    background-color: #f1f0f1;
+    padding: 8px 12px;
+    display: block;
+    color: #505050 ;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.section2:hover span{
+    color: white;
+    background-color: red;
+    transition: all 0.3s ease-in-out;
+}
+
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+   
+}
+

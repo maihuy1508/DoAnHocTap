@@ -1,0 +1,15 @@
+.body{
+    margin: 1px;
+    text-align: center;
+    height:100%;
+    font-family: Arial;
+    position: relative;
+}
+
+body header{
+    z-index: 30;
+}
+
+body main{
+    z-index: 1;
+}

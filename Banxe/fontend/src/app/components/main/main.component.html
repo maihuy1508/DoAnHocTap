@@ -1,0 +1,23 @@
+<section id="Slider">
+  <div class="aspect-ratio-169">
+    <img src="./assets/images/banner1.jpg" alt="">
+  </div>
+</section>
+<h2 class="head" style="margin-bottom: 20px;margin-top: 20px;text-align: center;">Một số loại sản phẩm</h2>
+
+<div id="container">
+  <div id="inner">
+    <div class="child" *ngFor="let sanpham of sanphams">
+      <div class="card" style="width: 500px;">
+        <img src="./assets/images/{{sanpham.hinhAnh}}" width="300px" height="300px" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="card-title" style="font-size: 25px;">{{sanpham.tenSP}} || {{sanpham.DonGia}}</h2>
+          <p class="card-text" style="color: rgb(221, 221, 216);">Chi tiết về thông tin sản phẩm vui lòng xem bên dưới....</p>
+          <a [routerLink]="['/detail']">
+            <button type="button" class="btn btn-danger">Xem chi tiết</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
